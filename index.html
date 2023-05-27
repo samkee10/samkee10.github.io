@@ -10,79 +10,72 @@
 		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	
+	<nav class="navbar navbar-expand-md bg-light mb-0 pb-0">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<div class="collapse navbar-collapse justify-content-between" id="navbarToggler">
+				<a class="navbar-brand" href="#hero">
+				<img src="..." width="25px" alt="Sam kee">
+				</a>
+				<ul class="navbar-nav d-flex justify-content-center align-items-center">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					<a class="nav-link active" aria-current="page" href="#education">Educacion</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							Dropdown
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Action</a></li>
-							<li><a class="dropdown-item" href="#">Another action</a></li>
-							<li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li>
-						</ul>
+					<a class="nav-link" href="#experiencia">Experiencia</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled">Disabled</a>
+					<a class="nav-link" href="#portfolio">Poratfolio</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#contactme">Contactame</a>
 					</li>
 				</ul>
-				<form class="d-flex">
-					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success" type="submit">Search</button>
-				</form>
 			</div>
 		</div>
 	</nav>
+
 	<div class="container">
-    <div class="header">
-      <h1>Mi Currículum</h1>
-      <p>Nombre: <span class="info">Sam Kee Tang Bastidas</span></p>
-      <p>Email: <span class="info">samkeetangcl@gmail.com</span></p>
-      <p>Teléfono: <span class="info">56 9 91300654</span></p>
-    </div>
-    
+    	<div class="header">
+    		<h1>Mi Currículum</h1>
+    		<p>Nombre: <span class="info">Sam Kee Tang Bastidas</span></p>
+    		<p>Email: <span class="info">samkeetangcl@gmail.com</span></p>
+    		<p>Teléfono: <span class="info">56 9 91300654</span></p>
+    	</div>
+	</div>
+
     <div class="section">
-      <h2 class="title">Educación</h2>
-      <div class="Educacion">
-        <h4>Colegio Salesiano Pio XII</h4>
-        <p>Bachillerato Completado</p>
-        <p>2002-2013</p>
+    	<h2 class="title">Educación</h2>
+    	<div id="education" class="Educacion">
+        	<h4>Colegio Salesiano Pio XII</h4>
+        	<p>Bachillerato Completado</p>
+        	<p>2002-2013</p>
 				<br>
 				<h4>Instituto Tecnologico Rodolfo Loero Arismendi</h4>
-        <p>Administracion Tributaria</p>
-        <p>2013-2016</p>
+        	<p>Administracion Tributaria</p>
+        	<p>2013-2016</p>
 				<h4>Desafio Latam</h4>
-        <p>Fullstack javascript</p>
-        <p>Actualidad</p>
-			</div>
+        	<p>Fullstack javascript</p>
+        	<p>Actualidad</p>
+	</div>
     <hr>
-    <div class="section">
-      <h2 class="title">Experiencia</h2>
-      <div class="item">
-        <h4>Barista</h4>
-        <p>Cafeteria Double Bean</p>
-        <p>2017-2023</p>
+    <div id="experiencia" class="section">
+    	<h2 class="title">Experiencia</h2>
+    	<div class="item">
+        	<h4>Barista</h4>
+        	<p>Cafeteria Double Bean</p>
+        	<p>2017-2023</p>
 				<br>
 				<h4>Garzon</h4>
 				<p>Restaurant Guangzho</p>
 				<p>2020-2022</p>
 				<hr>
-      </div>
+    	</div>
     </div>
-	<div class="section">
+	<div id="portfolio" class="section">
 		<h2 class="title">Portafolio</h2>
 		<div class="card-group gap-2">
 			<div class="card">
@@ -121,7 +114,7 @@
 		</div>
 	</div>
 	<hr>
-	<footer>
+	<footer id="contactme">
 		<ul>
 		<li>Contact me </li>
 		<li>samkeetangcl@gmail.com</li>
